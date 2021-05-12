@@ -3,7 +3,7 @@
   'use strict';
 
   $.ajax({
-    url: 'MOCK_DATA.csv',
+    url: 'https://gist.githubusercontent.com/Matias-01/494aa79e69eb0dc72b3d66b7c4498e1e/raw/42c9c210bb6f050b1057fdbd1a4d429ca17d6960/MOCK_DATA.csv',
     dataType: 'text',
   }).done(successFunction);
 
